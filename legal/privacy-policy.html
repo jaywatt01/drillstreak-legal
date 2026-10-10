@@ -25,7 +25,7 @@
 <div class="wordmark-bar"><a href="https://drillstreak.com/" class="wordmark"><span class="dot"></span>DrillStreak</a></div>
 
 <h1>Privacy Policy</h1>
-<p class="updated">Last updated: October 7, 2026</p>
+<p class="updated">Last updated: October 10, 2026</p>
 
 <p>This Privacy Policy explains how DrillStreak ("DrillStreak," "we," "us") collects, uses, and protects information when you use the DrillStreak or DrillStreak IQ mobile applications (each, the "App"). Both apps use the same DrillStreak account, so this policy covers both. DrillStreak is operated by DrillStreak, LLC, a Utah limited liability company.</p>
 
@@ -41,6 +41,7 @@
   <li><strong>Push notifications (optional):</strong> if you allow notifications, we store a device-specific push token used only to deliver App notifications to you (new Team Chat messages, roster activity, event reminders). We do not use this token for anything else, and it's tied to your device, not sold or shared beyond the notification-delivery service itself (Expo).</li>
   <li><strong>Subscription status:</strong> whether you hold a paid Parent membership in either app, handled through our subscription provider, RevenueCat, and Apple's App Store. We do not receive or store your payment card details — those are handled entirely by Apple.</li>
   <li><strong>Lesson activity (DrillStreak IQ):</strong> which daily mindset lessons you, or a player you manage, mark as done and on which dates, so the App can show the day's lesson, your streak, and your history. If a coach assigns a lesson to a team, we store the assignment, its due date, and the coach's optional note, which the team's roster can see.</li>
+  <li><strong>AI Practice Builder (coaches, optional):</strong> when a coach asks DrillStreak to suggest a practice, we send our AI service provider, Anthropic, PBC, only the choices the coach picks from fixed lists in the App (sport, age group, skill areas to work on, available equipment, practice length, and an optional position group) together with the names and identifiers of DrillStreak's own built-in drills for that sport. The builder has no free-text field. We do not send player names, team names, email addresses, account or user identifiers, photos, or any drill or activity data about a player. Anthropic returns a suggested list of drills from that library, with practice times and short coaching cues. Nothing is saved or assigned unless the coach reviews the suggestion and approves it; approved drills are stored as ordinary drill assignments for the coach's team. The feature is available only to coaches, for teams they coach.</li>
   <li><strong>Daily lesson reminders (DrillStreak IQ):</strong> reminders are scheduled on your device itself. We do not collect a push token for them, and you can turn them off in the App's Account screen or in your device's Settings.</li>
 </ul>
 
@@ -53,6 +54,7 @@
   <li><strong>Supabase</strong> — hosts our database and handles authentication. Supabase can access data only to provide this hosting; they do not use it for their own purposes.</li>
   <li><strong>RevenueCat</strong> — manages subscription status and entitlements.</li>
   <li><strong>Expo</strong> — delivers push notifications to your device using your device's push token; does not receive message content, drill data, or any other information beyond what's needed to route a notification.</li>
+  <li><strong>Anthropic</strong> — generates suggested practices for coaches who use the AI Practice Builder, from the limited, non-personal information described above. Anthropic processes it on our behalf to provide the feature, and under its commercial terms may not train its models on it.</li>
   <li><strong>Apple (App Store)</strong> — processes payments for subscriptions and distributes the App.</li>
 </ul>
 <p>A coach can see the roster of players on their team and the drills those players have logged, regardless of who assigned the drill — this visibility is a core, disclosed part of how the App works (it's what lets a coach see each player's progress and help them grow), and is limited to players who have joined that coach's team using an invite code. In DrillStreak IQ, a coach can likewise see which lessons the players on their team have marked done.</p>
